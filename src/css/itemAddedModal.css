@@ -1,0 +1,48 @@
+
+.item-added-modal-container {
+
+  width: 100vw;
+  height: 100vh;
+
+  background-color: rgba(0, 0, 0, 0.7);
+
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  z-index: 1;
+}
+
+.item-added-modal-content {
+
+  width: 50%;
+  margin: auto;
+  margin-top: 40vh;
+
+  border-radius: 20px;
+  background-color: white;
+}
+
+.item-added-modal-content p {
+
+  text-align: center;
+  padding: 25px;
+}
+
+.button-container {
+  
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+
+  padding: 30px;
+}
+
+@media only screen and (max-width: 1060px) {
+
+  .item-added-modal-content {
+
+    width: 90%;
+    margin-top: 20vh;
+  }
+}
