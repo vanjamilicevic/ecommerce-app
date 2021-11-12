@@ -1,0 +1,39 @@
+
+
+.footer-container {
+
+  background-color: #141414;
+  padding: 10px;
+
+  margin-top: auto;
+}
+
+.social-media {
+
+  width: 15%;
+  margin: 25px auto 0 auto;
+
+  display: flex;
+  justify-content: space-around;
+  color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+}
+
+.fab:hover {
+
+  color: white;
+  cursor: pointer;
+}
+
+.contact-us {
+
+  text-align: center;
+  margin-top: 15px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.contact-us:hover {
+
+  color: white;
+  cursor: pointer;
+}
